@@ -1,0 +1,1 @@
+C:\Users\foreskin\Desktop\sum_good_shit\programming\rust\markdown_test_editor\markdown_editor\target\debug\markdown_editor.exe: C:\Users\foreskin\Desktop\sum_good_shit\programming\rust\markdown_test_editor\markdown_editor\src\main.rs
