@@ -36,9 +36,11 @@ fn begin_processing(file_name: &str) -> io::Result<()>{
     let mut buffer = String::new();
 
 
+    // do not want to print out newlines
     while let Some(line) = reader.read_line(&mut buffer) {
-        println!("{}", line?.trim());
+        print!("{}", line?);
     }
+    println!();
 
     Ok(())
 }
